@@ -1,8 +1,56 @@
 UMAP Cluster Profiles
-Configuration: UMAP 20d, k=6, silhouette=0.8272
+Configuration: UMAP 5d, k=4, silhouette=0.7500
 =================================================================
 
-Cluster 0  (n=1,547 patients, 13.8%)
+Cluster 0  (n=1,072 patients, 8.8%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  PNL001     Liveborn                                                93.4%
+  FAC016     Exposure, encounters, screening or contact with infectious disease      90.8%
+  PNL007     Hemolytic jaundice and perinatal jaundice               75.1%
+  PNL013     Other specified and unspecified perinatal conditions      56.4%
+  PNL002     Short gestation; low birth weight; and fetal growth retardation      23.7%
+  PNL010     Newborn affected by maternal conditions or complications of labor/delivery      19.7%
+  PNL012     Neonatal digestive and feeding disorders                11.9%
+  PNL008     Birth trauma                                            11.3%
+  FAC003     Encounter for observation and examination for conditions ruled out (excludes infectious disease, neoplasm, mental disorders)      10.4%
+  PNL005     Respiratory distress syndrome                            9.8%
+  PNL006     Respiratory perinatal condition                          8.0%
+  PNL011     Hemorrhagic and hematologic disorders of newborn         7.6%
+  MAL001     Cardiac and circulatory congenital anomalies             6.2%
+  FAC017     No immunization or underimmunization                     5.0%
+  MAL010     Other specified and unspecified congenital anomalies       4.9%
+  MAL003     Genitourinary congenital anomalies                       4.3%
+  FAC021     Personal/family history of disease                       2.8%
+  MAL008     Musculoskeletal congenital conditions                    2.3%
+  SYM017     Abnormal findings without diagnosis                      2.3%
+  FAC014     Medical examination/evaluation                           1.6%
+
+Cluster 1  (n=9,049 patients, 74.3%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  FAC025     Other specified status                                  61.8%
+  FAC021     Personal/family history of disease                      48.2%
+  END010     Disorders of lipid metabolism                           39.8%
+  CIR007     Essential hypertension                                  33.9%
+  CIR008     Hypertension with complications and secondary hypertension      30.6%
+  CIR011     Coronary atherosclerosis and other heart disease        25.5%
+  DIG004     Esophageal disorders                                    24.4%
+  END009     Obesity                                                 23.4%
+  MBD002     Depressive disorders                                    22.1%
+  GEN003     Chronic kidney disease                                  21.9%
+  END011     Fluid and electrolyte disorders                         20.6%
+  CIR017     Cardiac dysrhythmias                                    20.0%
+  CIR019     Heart failure                                           19.7%
+  END003     Diabetes mellitus with complication                     19.2%
+  MBD005     Anxiety and fear-related disorders                      18.3%
+  BLD003     Aplastic anemia                                         17.7%
+  MUS006     Osteoarthritis                                          17.3%
+  SYM010     Nervous system signs and symptoms                       17.0%
+  END001     Thyroid disorders                                       16.5%
+  NVS016     Sleep wake disorders                                    16.3%
+
+Cluster 2  (n=1,547 patients, 12.7%)
   CCSR       Description                                        Prevalence
   ----------------------------------------------------------------------
   PRG002     Gestational weeks                                       99.1%
@@ -10,78 +58,42 @@ Cluster 0  (n=1,547 patients, 13.8%)
   PRG023     Complications specified during childbirth               53.5%
   PRG026     OB-related trauma to perineum and vulva                 41.6%
   PRG024     Malposition, disproportion or other labor complications      38.3%
-  FAC025     Other specified status                                  28.7%
+  FAC025     Other specified status                                  28.6%
   FAC016     Exposure, encounters, screening or contact with infectious disease      23.7%
   PRG016     Previous C-section                                      19.2%
-  FAC024     Carrier status                                          17.6%
+  FAC024     Carrier status                                          17.5%
   END009     Obesity                                                 17.3%
+  BLD003     Aplastic anemia                                         15.8%
+  FAC021     Personal/family history of disease                      13.1%
+  PRG013     Maternal care related to fetal conditions               12.7%
+  PRG028     Other specified complications in pregnancy              12.0%
+  END002     Diabetes mellitus without complication                  11.6%
+  MBD013     Miscellaneous mental and behavioral disorders/conditions       9.8%
+  FAC013     Contraceptive and procreative management                 9.1%
+  PRG022     Prolonged pregnancy                                      8.8%
+  RSP009     Asthma                                                   8.0%
+  CIR008     Hypertension with complications and secondary hypertension       7.9%
 
-Cluster 1  (n=8,125 patients, 72.7%)
-  CCSR       Description                                        Prevalence
-  ----------------------------------------------------------------------
-  FAC025     Other specified status                                  74.6%
-  FAC021     Personal/family history of disease                      54.4%
-  END010     Disorders of lipid metabolism                           47.9%
-  CIR008     Hypertension with complications and secondary hypertension      38.3%
-  CIR007     Essential hypertension                                  36.8%
-  CIR011     Coronary atherosclerosis and other heart disease        31.6%
-  GEN003     Chronic kidney disease                                  28.1%
-  DIG004     Esophageal disorders                                    27.7%
-  END009     Obesity                                                 27.3%
-  END011     Fluid and electrolyte disorders                         27.2%
-
-Cluster 2  (n=156 patients, 1.4%)
+Cluster 3  (n=511 patients, 4.2%)
   CCSR       Description                                        Prevalence
   ----------------------------------------------------------------------
   FAC016     Exposure, encounters, screening or contact with infectious disease     100.0%
-  PNL001     Liveborn                                               100.0%
-  PNL007     Hemolytic jaundice and perinatal jaundice               96.8%
-  PNL013     Other specified and unspecified perinatal conditions      95.5%
-  MAL005     Congenital malformations of eye, ear, face, neck         5.1%
-  EYE008     Oculofacial plastics and orbital conditions              2.6%
-  SYM006     Abdominal pain and other digestive/abdomen signs and symptoms       1.9%
-  SYM016     Other general signs and symptoms                         1.3%
-  SKN007     Other specified and unspecified skin disorders           0.6%
-  FAC014     Medical examination/evaluation                           0.6%
-
-Cluster 3  (n=784 patients, 7.0%)
-  CCSR       Description                                        Prevalence
-  ----------------------------------------------------------------------
-  PNL001     Liveborn                                                93.9%
-  FAC016     Exposure, encounters, screening or contact with infectious disease      90.1%
-  PNL007     Hemolytic jaundice and perinatal jaundice               74.2%
-  PNL013     Other specified and unspecified perinatal conditions      50.5%
-  PNL002     Short gestation; low birth weight; and fetal growth retardation      32.4%
-  PNL010     Newborn affected by maternal conditions or complications of labor/delivery      26.9%
-  PNL012     Neonatal digestive and feeding disorders                16.3%
-  PNL008     Birth trauma                                            15.4%
-  FAC003     Encounter for observation and examination for conditions ruled out (excludes infectious disease, neoplasm, mental disorders)      14.2%
-  PNL005     Respiratory distress syndrome                           13.4%
-
-Cluster 4  (n=396 patients, 3.5%)
-  CCSR       Description                                        Prevalence
-  ----------------------------------------------------------------------
-  PNL007     Hemolytic jaundice and perinatal jaundice              100.0%
-  FAC016     Exposure, encounters, screening or contact with infectious disease     100.0%
-  PNL001     Liveborn                                                99.7%
-  MAL004     Nervous system congenital anomalies                      0.3%
-  MAL002     Digestive congenital anomalies                           0.3%
-  MAL007     Respiratory congenital malformations                     0.3%
-  DEN001     DEN001                                                   0.3%
-  SKN006     Postprocedure or postoperative skin complication         0.3%
-  GEN018     Inflammatory diseases of female pelvic organs            0.0%
-  GEN022     Benign ovarian cyst                                      0.0%
-
-Cluster 5  (n=166 patients, 1.5%)
-  CCSR       Description                                        Prevalence
-  ----------------------------------------------------------------------
-  FAC016     Exposure, encounters, screening or contact with infectious disease     100.0%
-  PNL001     Liveborn                                                97.0%
-  SYM017     Abnormal findings without diagnosis                      0.6%
-  SKN006     Postprocedure or postoperative skin complication         0.6%
-  BLD005     Sickle cell trait/anemia                                 0.6%
-  DIG009     Appendicitis and other appendiceal conditions            0.6%
-  DIG010     Abdominal hernia                                         0.6%
-  GEN016     Other specified male genital disorders                   0.6%
-  GEN018     Inflammatory diseases of female pelvic organs            0.6%
-  INJ001     Fracture of head and neck, initial encounter             0.6%
+  PNL001     Liveborn                                                99.0%
+  PNL007     Hemolytic jaundice and perinatal jaundice               67.7%
+  SKN006     Postprocedure or postoperative skin complication         0.4%
+  SYM017     Abnormal findings without diagnosis                      0.2%
+  MAL004     Nervous system congenital anomalies                      0.2%
+  PRG021     Maternal intrauterine infection                          0.2%
+  PNL009     Perinatal infections                                     0.2%
+  MAL007     Respiratory congenital malformations                     0.2%
+  GEN018     Inflammatory diseases of female pelvic organs            0.2%
+  MAL002     Digestive congenital anomalies                           0.2%
+  GEN016     Other specified male genital disorders                   0.2%
+  DIG010     Abdominal hernia                                         0.2%
+  DIG009     Appendicitis and other appendiceal conditions            0.2%
+  DEN001     DEN001                                                   0.2%
+  BLD005     Sickle cell trait/anemia                                 0.2%
+  PRG027     Complications specified during the puerperium            0.2%
+  BLD001     Nutritional anemia                                       0.2%
+  SYM002     Fever                                                    0.2%
+  SKN007     Other specified and unspecified skin disorders           0.0%
