@@ -12,6 +12,7 @@ On my honor, I declare the following resources:
    - HCUP CCSR User Guide v2026.1: https://hcup-us.ahrq.gov/toolssoftware/ccsr/DXCCSR-User-Guide-v2026-1.pdf
    - ICD10 Mapping to CCSR code (Python package): https://pypi.org/project/icd-mappings/
    - Text descriptions of CCSR codes: https://hcup-us.ahrq.gov/toolssoftware/ccsr/DXCCSR-vs-Beta-CCS-Comparison.xlsx
+   - K-Medoids implementation (scikit-learn-extra): https://pypi.org/project/scikit-learn-extra/
    
 3. **AI Tools:**
    - Claude
@@ -19,3 +20,6 @@ On my honor, I declare the following resources:
    - Rousseeuw, P.J. (1987). Silhouettes: a graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics*, 20, 53–65.
    - Davies, D.L., & Bouldin, D.W. (1979). A cluster separation measure. *IEEE TPAMI*, 1(2), 224–227.
    - McInnes, L., Healy, J., & Melville, J. (2018). UMAP: Uniform Manifold Approximation and Projection. *arXiv:1802.03426*.
+   - Allaoui, M., Kherfi, M.L., & Cheriet, A. (2020). Considerably Improving Clustering Algorithms Using UMAP Dimensionality Reduction Technique: A Comparative Study. *Image and Signal Processing*, 12119, 317–325. https://doi.org/10.1007/978-3-030-51935-3_34
+   - Ester, M., Kriegel, H.P., Sander, J., & Xu, X. (1996). A density-based algorithm for discovering clusters in large spatial databases with noise. *Proceedings of the 2nd International Conference on Knowledge Discovery and Data Mining (KDD-96)*, 226–231.
+   - Kaufman, L., & Rousseeuw, P.J. (1990). *Finding Groups in Data: An Introduction to Cluster Analysis*. Wiley.
