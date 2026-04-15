@@ -1,0 +1,59 @@
+UMAP Cluster Profiles — PRG/PNL Principal Dx Excluded
+Configuration: UMAP 100d, k=4, silhouette=0.6926
+=================================================================
+
+Cluster 0  (n=7,186, 76.2%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  FAC025     Other specified status                                  77.1%
+  FAC021     Personal/family history of disease                      56.4%
+  END010     Disorders of lipid metabolism                           49.2%
+  CIR007     Essential hypertension                                  38.7%
+  CIR008     Hypertension with complications and secondary hypertension      38.5%
+  CIR011     Coronary atherosclerosis and other heart disease        32.0%
+  END009     Obesity                                                 29.0%
+  DIG004     Esophageal disorders                                    28.8%
+  GEN003     Chronic kidney disease                                  27.6%
+  END011     Fluid and electrolyte disorders                         25.7%
+
+Cluster 1  (n=1,693, 18.0%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  MBD002     Depressive disorders                                    41.3%
+  MBD001     Schizophrenia spectrum and other psychotic disorders      27.6%
+  MBD003     Bipolar and related disorders                           26.3%
+  MBD005     Anxiety and fear-related disorders                      24.0%
+  FAC021     Personal/family history of disease                      17.9%
+  MBD012     Suicidal ideation/attempt/intentional self-harm         16.7%
+  CIR007     Essential hypertension                                  16.5%
+  NVS016     Sleep wake disorders                                    14.4%
+  MBD017     Alcohol-related disorders                                9.2%
+  DIG004     Esophageal disorders                                     8.2%
+
+Cluster 2  (n=383, 4.1%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  PRG002     Gestational weeks                                       99.7%
+  PRG030     Maternal outcome of delivery                            98.2%
+  PRG023     Complications specified during childbirth               54.8%
+  PRG026     OB-related trauma to perineum and vulva                 47.3%
+  FAC024     Carrier status                                          43.3%
+  PRG024     Malposition, disproportion or other labor complications      38.6%
+  FAC025     Other specified status                                  35.0%
+  END009     Obesity                                                 24.5%
+  FAC016     Exposure, encounters, screening or contact with infectious disease      24.3%
+  CIR008     Hypertension with complications and secondary hypertension      24.0%
+
+Cluster 3  (n=169, 1.8%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  MBD002     Depressive disorders                                   100.0%
+  MBD013     Miscellaneous mental and behavioral disorders/conditions       1.8%
+  MBD006     Obsessive-compulsive and related disorders               1.2%
+  MBD018     Opioid-related disorders                                 1.2%
+  DIG006     Gastrointestinal and biliary perforation                 0.6%
+  DIG012     Intestinal obstruction and ileus                         0.6%
+  MBD010     Feeding and eating disorders                             0.6%
+  MUS033     Gout                                                     0.6%
+  PRG002     Gestational weeks                                        0.6%
+  BLD001     Nutritional anemia                                       0.0%

@@ -4,12 +4,12 @@ PRG026,PRG026: OB-related trauma to perineum and vulva,PRG002 | PRG030,PRG002: G
 PRG026,PRG026: OB-related trauma to perineum and vulva,PRG030,PRG030: Maternal outcome of delivery,0.0528,0.9984,8.0744
 PRG002 | PRG023,PRG002: Gestational weeks | PRG023: Complications specified during childbirth,PRG030,PRG030: Maternal outcome of delivery,0.0669,0.9927,8.0279
 PRG030,PRG030: Maternal outcome of delivery,PRG002 | PRG023,PRG002: Gestational weeks | PRG023: Complications specified during childbirth,0.0669,0.5412,8.0279
-PRG002 | PRG030,PRG002: Gestational weeks | PRG030: Maternal outcome of delivery,PRG023,PRG023: Complications specified during childbirth,0.0669,0.5441,8.0122
 PRG023,PRG023: Complications specified during childbirth,PRG002 | PRG030,PRG002: Gestational weeks | PRG030: Maternal outcome of delivery,0.0669,0.9855,8.0122
+PRG002 | PRG030,PRG002: Gestational weeks | PRG030: Maternal outcome of delivery,PRG023,PRG023: Complications specified during childbirth,0.0669,0.5441,8.0122
 PRG030,PRG030: Maternal outcome of delivery,PRG023,PRG023: Complications specified during childbirth,0.0672,0.5438,8.0088
 PRG023,PRG023: Complications specified during childbirth,PRG030,PRG030: Maternal outcome of delivery,0.0672,0.9903,8.0088
-FAC016 | PNL007,"FAC016: Exposure, encounters, screening or contact with infectious disease | PNL007: Hemolytic jaundice and perinatal jaundice",PNL001,PNL001: Liveborn,0.0874,0.9898,7.9989
 PNL001,PNL001: Liveborn,FAC016 | PNL007,"FAC016: Exposure, encounters, screening or contact with infectious disease | PNL007: Hemolytic jaundice and perinatal jaundice",0.0874,0.706,7.9989
+FAC016 | PNL007,"FAC016: Exposure, encounters, screening or contact with infectious disease | PNL007: Hemolytic jaundice and perinatal jaundice",PNL001,PNL001: Liveborn,0.0874,0.9898,7.9989
 PRG026 | PRG030,PRG026: OB-related trauma to perineum and vulva | PRG030: Maternal outcome of delivery,PRG002,PRG002: Gestational weeks,0.0525,0.9953,7.8767
 PRG002,PRG002: Gestational weeks,PRG023 | PRG030,PRG023: Complications specified during childbirth | PRG030: Maternal outcome of delivery,0.0669,0.5296,7.8749
 PRG023 | PRG030,PRG023: Complications specified during childbirth | PRG030: Maternal outcome of delivery,PRG002,PRG002: Gestational weeks,0.0669,0.9951,7.8749
@@ -20,19 +20,19 @@ PRG002,PRG002: Gestational weeks,PRG023,PRG023: Complications specified during c
 PRG023,PRG023: Complications specified during childbirth,PRG002,PRG002: Gestational weeks,0.0674,0.9927,7.8562
 FAC016 | PNL001,"FAC016: Exposure, encounters, screening or contact with infectious disease | PNL001: Liveborn",PNL007,PNL007: Hemolytic jaundice and perinatal jaundice,0.0874,0.7288,7.7113
 PNL007,PNL007: Hemolytic jaundice and perinatal jaundice,FAC016 | PNL001,"FAC016: Exposure, encounters, screening or contact with infectious disease | PNL001: Liveborn",0.0874,0.9244,7.7113
-PNL001,PNL001: Liveborn,PNL007,PNL007: Hemolytic jaundice and perinatal jaundice,0.09,0.7273,7.6954
 PNL007,PNL007: Hemolytic jaundice and perinatal jaundice,PNL001,PNL001: Liveborn,0.09,0.9522,7.6954
+PNL001,PNL001: Liveborn,PNL007,PNL007: Hemolytic jaundice and perinatal jaundice,0.09,0.7273,7.6954
 CIR008 | END003,CIR008: Hypertension with complications and secondary hypertension | END003: Diabetes mellitus with complication,END010 | FAC025 | GEN003,END010: Disorders of lipid metabolism | FAC025: Other specified status | GEN003: Chronic kidney disease,0.0504,0.5121,6.0493
 END010 | FAC025 | GEN003,END010: Disorders of lipid metabolism | FAC025: Other specified status | GEN003: Chronic kidney disease,CIR008 | END003,CIR008: Hypertension with complications and secondary hypertension | END003: Diabetes mellitus with complication,0.0504,0.5955,6.0493
 CIR019 | END010,CIR019: Heart failure | END010: Disorders of lipid metabolism,CIR008 | CIR011 | FAC025,CIR008: Hypertension with complications and secondary hypertension | CIR011: Coronary atherosclerosis and other heart disease | FAC025: Other specified status,0.0515,0.5806,5.9317
 CIR008 | CIR011 | FAC025,CIR008: Hypertension with complications and secondary hypertension | CIR011: Coronary atherosclerosis and other heart disease | FAC025: Other specified status,CIR019 | END010,CIR019: Heart failure | END010: Disorders of lipid metabolism,0.0515,0.526,5.9317
 CIR019 | END010 | FAC025,CIR019: Heart failure | END010: Disorders of lipid metabolism | FAC025: Other specified status,CIR008 | CIR011,CIR008: Hypertension with complications and secondary hypertension | CIR011: Coronary atherosclerosis and other heart disease,0.0515,0.6786,5.92
-CIR008 | CIR011,CIR008: Hypertension with complications and secondary hypertension | CIR011: Coronary atherosclerosis and other heart disease,CIR019 | END010,CIR019: Heart failure | END010: Disorders of lipid metabolism,0.0601,0.5244,5.9131
 CIR019 | END010,CIR019: Heart failure | END010: Disorders of lipid metabolism,CIR008 | CIR011,CIR008: Hypertension with complications and secondary hypertension | CIR011: Coronary atherosclerosis and other heart disease,0.0601,0.6778,5.9131
-CIR008 | END003,CIR008: Hypertension with complications and secondary hypertension | END003: Diabetes mellitus with complication,END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,0.0564,0.573,5.772
+CIR008 | CIR011,CIR008: Hypertension with complications and secondary hypertension | CIR011: Coronary atherosclerosis and other heart disease,CIR019 | END010,CIR019: Heart failure | END010: Disorders of lipid metabolism,0.0601,0.5244,5.9131
 END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,CIR008 | END003,CIR008: Hypertension with complications and secondary hypertension | END003: Diabetes mellitus with complication,0.0564,0.5682,5.772
-END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,CIR008 | END003 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END003: Diabetes mellitus with complication | FAC025: Other specified status,0.0504,0.5079,5.7217
+CIR008 | END003,CIR008: Hypertension with complications and secondary hypertension | END003: Diabetes mellitus with complication,END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,0.0564,0.573,5.772
 CIR008 | END003 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END003: Diabetes mellitus with complication | FAC025: Other specified status,END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,0.0504,0.568,5.7217
+END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,CIR008 | END003 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END003: Diabetes mellitus with complication | FAC025: Other specified status,0.0504,0.5079,5.7217
 PNL001 | PNL007,PNL001: Liveborn | PNL007: Hemolytic jaundice and perinatal jaundice,FAC016,"FAC016: Exposure, encounters, screening or contact with infectious disease",0.0874,0.9708,5.367
 PNL001,PNL001: Liveborn,FAC016,"FAC016: Exposure, encounters, screening or contact with infectious disease",0.1199,0.9688,5.356
 FAC016,"FAC016: Exposure, encounters, screening or contact with infectious disease",PNL001,PNL001: Liveborn,0.1199,0.6627,5.356
@@ -92,30 +92,30 @@ CIR011 | CIR019,CIR011: Coronary atherosclerosis and other heart disease | CIR01
 CIR008 | END010 | FAC021,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism | FAC021: Personal/family history of disease,FAC025 | GEN003,FAC025: Other specified status | GEN003: Chronic kidney disease,0.0518,0.5794,4.1732
 FAC021 | GEN003,FAC021: Personal/family history of disease | GEN003: Chronic kidney disease,CIR008 | END010 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism | FAC025: Other specified status,0.0518,0.5052,4.1714
 CIR019 | FAC021,CIR019: Heart failure | FAC021: Personal/family history of disease,CIR008 | FAC025,CIR008: Hypertension with complications and secondary hypertension | FAC025: Other specified status,0.0727,0.8173,4.1598
-CIR008 | END010 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism | FAC025: Other specified status,GEN003,GEN003: Chronic kidney disease,0.0821,0.678,4.1555
 GEN003,GEN003: Chronic kidney disease,CIR008 | END010 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism | FAC025: Other specified status,0.0821,0.5033,4.1555
+CIR008 | END010 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism | FAC025: Other specified status,GEN003,GEN003: Chronic kidney disease,0.0821,0.678,4.1555
 CIR011 | END010 | GEN003,CIR011: Coronary atherosclerosis and other heart disease | END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0544,0.9851,4.15
-CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,FAC025 | GEN003,FAC025: Other specified status | GEN003: Chronic kidney disease,0.0821,0.576,4.1488
 FAC025 | GEN003,FAC025: Other specified status | GEN003: Chronic kidney disease,CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,0.0821,0.5914,4.1488
+CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,FAC025 | GEN003,FAC025: Other specified status | GEN003: Chronic kidney disease,0.0821,0.576,4.1488
 CIR008 | END010 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism | FAC025: Other specified status,CIR019,CIR019: Heart failure,0.0733,0.6054,4.1447
 CIR019,CIR019: Heart failure,CIR008 | END010 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism | FAC025: Other specified status,0.0733,0.502,4.1447
-CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,FAC025 | GEN003,FAC025: Other specified status | GEN003: Chronic kidney disease,0.0815,0.5747,4.1394
 FAC025 | GEN003,FAC025: Other specified status | GEN003: Chronic kidney disease,CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,0.0815,0.5866,4.1394
+CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,FAC025 | GEN003,FAC025: Other specified status | GEN003: Chronic kidney disease,0.0815,0.5747,4.1394
 END003 | END010 | FAC025 | GEN003,END003: Diabetes mellitus with complication | END010: Disorders of lipid metabolism | FAC025: Other specified status | GEN003: Chronic kidney disease,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0504,0.9824,4.1386
 END003 | END010 | GEN003,END003: Diabetes mellitus with complication | END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0564,0.9814,4.1345
 CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,GEN003,GEN003: Chronic kidney disease,0.096,0.6734,4.1274
 GEN003,GEN003: Chronic kidney disease,CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,0.096,0.5883,4.1274
 CIR019 | END010 | FAC021,CIR019: Heart failure | END010: Disorders of lipid metabolism | FAC021: Personal/family history of disease,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0545,0.9794,4.1257
-CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,CIR019,CIR019: Heart failure,0.0859,0.6025,4.1249
 CIR019,CIR019: Heart failure,CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,0.0859,0.588,4.1249
+CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,CIR019,CIR019: Heart failure,0.0859,0.6025,4.1249
 CIR008 | END010 | GEN003,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,END003,END003: Diabetes mellitus with complication,0.0564,0.5877,4.1205
 FAC021 | FAC025 | GEN003,FAC021: Personal/family history of disease | FAC025: Other specified status | GEN003: Chronic kidney disease,CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,0.0518,0.5859,4.1103
 CIR019 | FAC025,CIR019: Heart failure | FAC025: Other specified status,CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,0.0733,0.5856,4.1081
 CIR008 | END010,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism,CIR019 | FAC025,CIR019: Heart failure | FAC025: Other specified status,0.0733,0.5144,4.1081
 CIR008 | FAC021 | FAC025,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease | FAC025: Other specified status,GEN003,GEN003: Chronic kidney disease,0.0815,0.6698,4.1055
 CIR011 | CIR019 | END010,CIR011: Coronary atherosclerosis and other heart disease | CIR019: Heart failure | END010: Disorders of lipid metabolism,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0601,0.9734,4.1007
-CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,CIR019 | FAC025,CIR019: Heart failure | FAC025: Other specified status,0.0727,0.5133,4.0995
 CIR019 | FAC025,CIR019: Heart failure | FAC025: Other specified status,CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,0.0727,0.581,4.0995
+CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,CIR019 | FAC025,CIR019: Heart failure | FAC025: Other specified status,0.0727,0.5133,4.0995
 CIR008 | FAC021 | FAC025,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease | FAC025: Other specified status,CIR019,CIR019: Heart failure,0.0727,0.5982,4.0956
 CIR011 | CIR019 | END010 | FAC025,CIR011: Coronary atherosclerosis and other heart disease | CIR019: Heart failure | END010: Disorders of lipid metabolism | FAC025: Other specified status,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0515,0.9721,4.0952
 CIR008 | END010 | FAC021 | FAC025,CIR008: Hypertension with complications and secondary hypertension | END010: Disorders of lipid metabolism | FAC021: Personal/family history of disease | FAC025: Other specified status,GEN003,GEN003: Chronic kidney disease,0.0518,0.6677,4.0927
@@ -129,8 +129,8 @@ CIR008 | END010 | GEN003,CIR008: Hypertension with complications and secondary h
 END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.096,0.9669,4.0734
 CIR011 | GEN003,CIR011: Coronary atherosclerosis and other heart disease | GEN003: Chronic kidney disease,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0737,0.9666,4.0722
 CIR019 | END010 | FAC025,CIR019: Heart failure | END010: Disorders of lipid metabolism | FAC025: Other specified status,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0733,0.9665,4.0714
-GEN003,GEN003: Chronic kidney disease,CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,0.0941,0.5767,4.0697
 CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,GEN003,GEN003: Chronic kidney disease,0.0941,0.664,4.0697
+GEN003,GEN003: Chronic kidney disease,CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,0.0941,0.5767,4.0697
 CIR019 | END003,CIR019: Heart failure | END003: Diabetes mellitus with complication,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0555,0.9657,4.0683
 END010 | FAC021 | GEN003,END010: Disorders of lipid metabolism | FAC021: Personal/family history of disease | GEN003: Chronic kidney disease,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0596,0.9654,4.0671
 END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,END003,END003: Diabetes mellitus with complication,0.0575,0.579,4.0596
@@ -145,12 +145,12 @@ CIR011 | CIR019 | FAC025,CIR011: Coronary atherosclerosis and other heart diseas
 END003 | FAC025 | GEN003,END003: Diabetes mellitus with complication | FAC025: Other specified status | GEN003: Chronic kidney disease,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0705,0.9566,4.0298
 CIR011 | CIR019,CIR011: Coronary atherosclerosis and other heart disease | CIR019: Heart failure,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0838,0.956,4.0272
 END003 | GEN003,END003: Diabetes mellitus with complication | GEN003: Chronic kidney disease,CIR008,CIR008: Hypertension with complications and secondary hypertension,0.0782,0.9559,4.0268
-CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,CIR019,CIR019: Heart failure,0.0833,0.5875,4.0219
 CIR019,CIR019: Heart failure,CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,0.0833,0.57,4.0219
+CIR008 | FAC021,CIR008: Hypertension with complications and secondary hypertension | FAC021: Personal/family history of disease,CIR019,CIR019: Heart failure,0.0833,0.5875,4.0219
 CIR008 | CIR011 | END010,CIR008: Hypertension with complications and secondary hypertension | CIR011: Coronary atherosclerosis and other heart disease | END010: Disorders of lipid metabolism,GEN003,GEN003: Chronic kidney disease,0.0544,0.6561,4.0214
 END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,END003 | FAC025,END003: Diabetes mellitus with complication | FAC025: Other specified status,0.0513,0.517,4.0128
-GEN003,GEN003: Chronic kidney disease,CIR008 | FAC025,CIR008: Hypertension with complications and secondary hypertension | FAC025: Other specified status,0.1285,0.7876,4.0085
 CIR008 | FAC025,CIR008: Hypertension with complications and secondary hypertension | FAC025: Other specified status,GEN003,GEN003: Chronic kidney disease,0.1285,0.654,4.0085
+GEN003,GEN003: Chronic kidney disease,CIR008 | FAC025,CIR008: Hypertension with complications and secondary hypertension | FAC025: Other specified status,0.1285,0.7876,4.0085
 END003 | END010,END003: Diabetes mellitus with complication | END010: Disorders of lipid metabolism,CIR008 | GEN003,CIR008: Hypertension with complications and secondary hypertension | GEN003: Chronic kidney disease,0.0564,0.6016,4.0058
 CIR008 | CIR011,CIR008: Hypertension with complications and secondary hypertension | CIR011: Coronary atherosclerosis and other heart disease,FAC025 | GEN003,FAC025: Other specified status | GEN003: Chronic kidney disease,0.0637,0.5559,4.0035
 CIR008 | CIR011 | FAC025,CIR008: Hypertension with complications and secondary hypertension | CIR011: Coronary atherosclerosis and other heart disease | FAC025: Other specified status,GEN003,GEN003: Chronic kidney disease,0.0637,0.651,3.9902
@@ -193,8 +193,8 @@ CIR008 | END010 | FAC025,CIR008: Hypertension with complications and secondary h
 CIR008 | GEN003,CIR008: Hypertension with complications and secondary hypertension | GEN003: Chronic kidney disease,END003,END003: Diabetes mellitus with complication,0.0782,0.521,3.6533
 END003,END003: Diabetes mellitus with complication,CIR008 | GEN003,CIR008: Hypertension with complications and secondary hypertension | GEN003: Chronic kidney disease,0.0782,0.5486,3.6533
 END003 | FAC025,END003: Diabetes mellitus with complication | FAC025: Other specified status,CIR008 | GEN003,CIR008: Hypertension with complications and secondary hypertension | GEN003: Chronic kidney disease,0.0705,0.5475,3.6456
-GEN003,GEN003: Chronic kidney disease,END003,END003: Diabetes mellitus with complication,0.0819,0.5018,3.5181
 END003,END003: Diabetes mellitus with complication,GEN003,GEN003: Chronic kidney disease,0.0819,0.574,3.5181
+GEN003,GEN003: Chronic kidney disease,END003,END003: Diabetes mellitus with complication,0.0819,0.5018,3.5181
 END003 | FAC025,END003: Diabetes mellitus with complication | FAC025: Other specified status,GEN003,GEN003: Chronic kidney disease,0.0737,0.5723,3.5081
 CIR019 | END010,CIR019: Heart failure | END010: Disorders of lipid metabolism,GEN003,GEN003: Chronic kidney disease,0.0501,0.5648,3.4619
 END010 | GEN003,END010: Disorders of lipid metabolism | GEN003: Chronic kidney disease,CIR019,CIR019: Heart failure,0.0501,0.5045,3.4541

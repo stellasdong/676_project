@@ -1,0 +1,84 @@
+UMAP Sub-cluster Profiles — Non-Pregnancy Cluster 1
+Configuration: UMAP 10d, k=5, silhouette=0.6961
+Parent partition: UMAP 5D k=4 (Cluster 1, n=9,049 patients)
+=================================================================
+
+Sub-cluster 0  (n=1,511, 16.7%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  MBD002     Depressive disorders                                    46.6%
+  MBD005     Anxiety and fear-related disorders                      26.8%
+  MBD003     Bipolar and related disorders                           25.3%
+  MBD001     Schizophrenia spectrum and other psychotic disorders      22.4%
+  FAC021     Personal/family history of disease                      20.4%
+  MBD012     Suicidal ideation/attempt/intentional self-harm         18.7%
+  CIR007     Essential hypertension                                  18.5%
+  NVS016     Sleep wake disorders                                    16.1%
+  MBD017     Alcohol-related disorders                               10.3%
+  DIG004     Esophageal disorders                                     9.3%
+  MBD019     Cannabis-related disorders                               9.0%
+  MBD007     Trauma- and stressor-related disorders                   8.1%
+
+Sub-cluster 1  (n=2,992, 33.1%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  CIR008     Hypertension with complications and secondary hypertension      89.9%
+  FAC025     Other specified status                                  82.9%
+  GEN003     Chronic kidney disease                                  65.0%
+  FAC021     Personal/family history of disease                      60.7%
+  END010     Disorders of lipid metabolism                           58.6%
+  CIR019     Heart failure                                           58.4%
+  CIR011     Coronary atherosclerosis and other heart disease        48.2%
+  END003     Diabetes mellitus with complication                     41.9%
+  CIR017     Cardiac dysrhythmias                                    38.9%
+  BLD003     Aplastic anemia                                         32.8%
+  DIG004     Esophageal disorders                                    32.5%
+  END011     Fluid and electrolyte disorders                         31.8%
+
+Sub-cluster 2  (n=4,250, 47.0%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  FAC025     Other specified status                                  72.2%
+  CIR007     Essential hypertension                                  65.2%
+  FAC021     Personal/family history of disease                      52.7%
+  END010     Disorders of lipid metabolism                           42.0%
+  END009     Obesity                                                 26.8%
+  DIG004     Esophageal disorders                                    25.8%
+  MUS006     Osteoarthritis                                          23.7%
+  END011     Fluid and electrolyte disorders                         21.2%
+  SYM010     Nervous system signs and symptoms                       20.8%
+  CIR011     Coronary atherosclerosis and other heart disease        20.1%
+  FAC009     Implant, device or graft related encounter              18.7%
+  MBD005     Anxiety and fear-related disorders                      17.5%
+
+Sub-cluster 3  (n=167, 1.8%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  MBD002     Depressive disorders                                    99.4%
+  MBD006     Obsessive-compulsive and related disorders               1.8%
+  MBD018     Opioid-related disorders                                 1.2%
+  DIG006     Gastrointestinal and biliary perforation                 0.6%
+  DIG012     Intestinal obstruction and ileus                         0.6%
+  MBD010     Feeding and eating disorders                             0.6%
+  MUS033     Gout                                                     0.6%
+  PRG002     Gestational weeks                                        0.6%
+  BLD001     Nutritional anemia                                       0.0%
+  BLD002     Hemolytic anemia                                         0.0%
+  BLD003     Aplastic anemia                                          0.0%
+  BLD004     Acute posthemorrhagic anemia                             0.0%
+
+Sub-cluster 4  (n=129, 1.4%)
+  CCSR       Description                                        Prevalence
+  ----------------------------------------------------------------------
+  MBD001     Schizophrenia spectrum and other psychotic disorders     100.0%
+  MBD022     Hallucinogen-related disorders                           1.6%
+  SYM015     General sensation/perception signs and symptoms          1.6%
+  END011     Fluid and electrolyte disorders                          0.8%
+  INF007     Hepatitis                                                0.8%
+  MBD004     Other specified and unspecified mood disorders           0.8%
+  MBD010     Feeding and eating disorders                             0.8%
+  NVS010     Headache; including migraine                             0.8%
+  SKN005     Contact dermatitis                                       0.8%
+  BLD001     Nutritional anemia                                       0.0%
+  BLD002     Hemolytic anemia                                         0.0%
+  BLD003     Aplastic anemia                                          0.0%
