@@ -26,6 +26,9 @@ This single notebook contains the full pipeline: data loading and cleaning, ICD-
 
 2. Which comorbidity subgroups are the strongest predictors of high inpatient charges?
 
+## Results Summary
+
+A two-stage clustering pipeline (UMAP 5D + K-Medoids, k=4, silhouette=0.75; then sub-clustering the adult group at UMAP 10D + K-Medoids k=5, silhouette=0.70) yields **eight clinically coherent subgroups** — neonatal, obstetric, healthy newborn, and five chronic-disease adult sub-groups. Comorbidity subgroups are meaningful but partial predictors of high charges (top-quartile threshold): the strongest features are comorbidity count (~35–40% of Random Forest importance) and patient age (~30–37%), with Logistic Regression achieving ROC-AUC **0.732** and Random Forest **0.705**.
 
 ## Data
 
@@ -74,6 +77,20 @@ This project was built and run on **Google Colab**. To reproduce:
 5. Run all cells in `main_notebook.ipynb` from top to bottom — the notebook is fully self-contained
 
 > **Note:** UMAP fitting on the full dataset can take several minutes per dimensionality setting.
+
+## Repository Structure
+
+```
+676_project/
+├── main_notebook.ipynb          # full pipeline — main deliverable
+├── extract_bcs_tx_inpatient.py  # filters raw PUDF .txt files to BCS subset
+├── ccsr_descriptions.txt        # CCSR code → human-readable label reference
+├── requirements.txt             # pinned Python dependencies
+└── prev_submissions/            # past graded checkpoint submissions
+    ├── checkpoint1.ipynb
+    ├── checkpoint2.ipynb
+└── bak/                         # not current versions of testing notebooks
+```
 
 ## Key Dependencies
 
