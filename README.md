@@ -67,7 +67,7 @@ This project was built and run on **Google Colab**. To reproduce:
 1. Clone this repository
 2. Upload `main_notebook.ipynb` to Google Colab (or open it via Google Drive)
 3. Place `bcs_tx_inpatient.csv` and `ccsr_descriptions.txt` at paths accessible to the notebook (update `DATA_PATH` and `CCSR_DESC_PATH` in the first code cell to match your Drive/Colab paths)
-4. Install dependencies:
+4. Install dependencies (requires **Python 3.10+**):
    ```bash
    pip install -r requirements.txt
    ```
@@ -79,7 +79,7 @@ This project was built and run on **Google Colab**. To reproduce:
 
 | Package | Version |
 |---|---|
-| Python | 3.10+ (Google Colab default) |
+| Python | 3.10+ |
 | pandas | ≥ 2.0, < 3 |
 | numpy | < 2 |
 | scikit-learn | 1.6.1 |
