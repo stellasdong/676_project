@@ -39,7 +39,7 @@ The statewide Texas PUDF was pre-filtered to retain only inpatient discharge rec
 3. Filter sparse CCSR features (< 5% prevalence) before clustering
 4. Binary-encode the per-visit CCSR set into a multi-hot matrix for downstream modeling
 
-**Auxiliary file:** `ccsr_descriptions.txt` — human-readable labels for CCSR codes, sourced from the [HCUP CCSR reference](https://hcup-us.ahrq.gov/toolssoftware/ccsr/ccs_refined.jsp)
+**Auxiliary file:** `ccsr_descriptions.txt` — human-readable labels for CCSR codes, sourced from the [HCUP CCSR reference](https://hcup-us.ahrq.gov/toolssoftware/ccsr/DXCCSR-vs-Beta-CCS-Comparison.xlsx)
 
 ### Loading the Data
 
