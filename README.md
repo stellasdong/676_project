@@ -4,7 +4,6 @@
 *Department of Computer Science & Engineering, Texas A&M University*  
 *CSCE 676: Data Mining and Analysis — Prof. James Caverlee*
 
----
 
 ## Project Video
 
