@@ -84,12 +84,12 @@ This project was built and run on **Google Colab**. To reproduce:
 676_project/
 ├── main_notebook.ipynb          # full pipeline — main deliverable
 ├── extract_bcs_tx_inpatient.py  # filters raw PUDF .txt files to BCS subset
-├── ccsr_descriptions.txt        # CCSR code → human-readable label reference
+├── ccsr_descriptions.txt        # CCSR code to human-readable label reference
 ├── requirements.txt             # pinned Python dependencies
 └── prev_submissions/            # past graded checkpoint submissions
     ├── checkpoint1.ipynb
     ├── checkpoint2.ipynb
-└── bak/                         # not current versions of testing notebooks
+└── bak/                         # stale intermediate drafts of testing notebooks
 ```
 
 ## Key Dependencies
