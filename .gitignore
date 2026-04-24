@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Data files (loaded from Google Drive — not committed)
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Large generated output files
+umap_cluster_profiles*.txt
+umap_subcluster_profiles*.txt
+comorbidity_rules*.csv
+
+# Testing scratch area
+bak/testing/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

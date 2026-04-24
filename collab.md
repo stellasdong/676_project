@@ -15,7 +15,9 @@ On my honor, I declare the following resources:
    - K-Medoids implementation (scikit-learn-extra): https://pypi.org/project/scikit-learn-extra/
    
 3. **AI Tools:**
-   - Claude
+   - Github Copilot: I prompted Github Copilot to help me clean up the main notebook.
+   - Claude: I prompted Claude to help me debug code and write code for more complex tasks, such as building the visualizations for the clustering analysis.
+   
 4. **Citations:**
    - Rousseeuw, P.J. (1987). Silhouettes: a graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics*, 20, 53–65.
    - Davies, D.L., & Bouldin, D.W. (1979). A cluster separation measure. *IEEE TPAMI*, 1(2), 224–227.
