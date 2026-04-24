@@ -10,13 +10,10 @@
 
 **[Watch the project video here](https://youtu.be/3f_2MJME-no)**
 
----
 
 ## Overview
 
 This project investigates whether comorbidity patterns in Texas inpatient hospital records can reveal clinically meaningful patient subgroups and predict high-cost visits. Using 2019 inpatient discharge data from Bryan–College Station (BCS) area facilities, patient diagnoses are mapped from raw ICD-10-CM codes to standardized CCSR categories and analyzed via association rule mining (Apriori), UMAP dimensionality reduction, and K-Medoids clustering. The result is a two-stage clustering pipeline that uncovers eight clinically coherent patient subgroups, which are then used alongside demographic features to predict whether a visit falls in the top quartile of charges. This work demonstrates that comorbidity structure is a meaningful but partial signal for cost prediction, with comorbidity count and subgroup membership ranking among the top predictors alongside patient age.
-
----
 
 ## Main Notebook
 
@@ -24,15 +21,12 @@ This project investigates whether comorbidity patterns in Texas inpatient hospit
 
 This single notebook contains the full pipeline: data loading and cleaning, ICD-10-CM to CCSR mapping, exploratory co-occurrence analysis, association rule mining, clustering (K-Medoids + UMAP), sub-clustering, and cost prediction models.
 
----
-
 ## Research Questions
 
 1. Can we define distinct patient subgroups in the BCS inpatient population?
 
 2. Which comorbidity subgroups are the strongest predictors of high inpatient charges?
 
----
 
 ## Data
 
@@ -48,7 +42,24 @@ The statewide Texas PUDF was pre-filtered to retain only inpatient discharge rec
 
 **Auxiliary file:** `ccsr_descriptions.txt` — human-readable labels for CCSR codes, sourced from the [HCUP CCSR reference](https://hcup-us.ahrq.gov/toolssoftware/ccsr/ccs_refined.jsp)
 
----
+### Loading the Data
+
+To reproduce the exact BCS dataset used in this project:
+
+1. Go to the [Texas DSHS Inpatient PUDF page](#data) and click **Agree** to accept the usage conditions.
+2. Under **2019**, download the **Tab-delimited file** for all 4 quarters of the year.
+3. Extract each zip file. Inside each, locate the file named `PUDF_base1_Xq2019_tab.txt` (where `X` is 1–4).
+4. Create a folder (e.g. `pudf/`) and move all four `.txt` files into it.
+5. Open [`extract_bcs_tx_inpatient.py`](extract_bcs_tx_inpatient.py) and set `DATA_PATH` at the top to your folder's path:
+   ```python
+   DATA_PATH = "pudf"  # path to folder containing the four PUDF .txt files
+   ```
+6. Run the script:
+   ```bash
+   python extract_bcs_tx_inpatient.py
+   ```
+   This produces `bcs_tx_inpatient.csv` in the current directory, containing only records from the Bryan–College Station area facilities.
+
 
 ## Reproducing the Work
 
@@ -63,9 +74,7 @@ This project was built and run on **Google Colab**. To reproduce:
    ```
 5. Run all cells in `main_notebook.ipynb` from top to bottom — the notebook is fully self-contained
 
-> **Note:** UMAP fitting on the full dataset can take several minutes per dimensionality setting. Runtime on a standard Colab CPU instance is approximately 15–20 minutes end-to-end.
-
----
+> **Note:** UMAP fitting on the full dataset can take several minutes per dimensionality setting.
 
 ## Key Dependencies
 
