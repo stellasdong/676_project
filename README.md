@@ -16,7 +16,7 @@ This project investigates whether comorbidity patterns in Texas inpatient hospit
 
 ## Main Notebook
 
-**The main deliverable is [main_notebook.ipynb](main_notebook.ipynb)**
+> ### 👉 Start here: [main_notebook.ipynb](main_notebook.ipynb)
 
 This single notebook contains the full pipeline: data loading and cleaning, ICD-10-CM to CCSR mapping, exploratory co-occurrence analysis, association rule mining, clustering (K-Medoids + UMAP), sub-clustering, and cost prediction models.
 
@@ -42,7 +42,7 @@ The statewide Texas PUDF was pre-filtered to retain only inpatient discharge rec
 3. Filter sparse CCSR features (< 5% prevalence) before clustering
 4. Binary-encode the per-visit CCSR set into a multi-hot matrix for downstream modeling
 
-**Auxiliary file:** `ccsr_descriptions.txt` — human-readable labels for CCSR codes, sourced from the [HCUP CCSR reference](https://hcup-us.ahrq.gov/toolssoftware/ccsr/DXCCSR-vs-Beta-CCS-Comparison.xlsx)
+**Auxiliary file:** `data/ccsr_descriptions.txt` — human-readable labels for CCSR codes, sourced from the [HCUP CCSR reference](https://hcup-us.ahrq.gov/toolssoftware/ccsr/DXCCSR-vs-Beta-CCS-Comparison.xlsx)
 
 ### Loading the Data
 
@@ -52,13 +52,13 @@ To reproduce the exact BCS dataset used in this project:
 2. Under **2019**, download the **Tab-delimited file** for all 4 quarters of the year.
 3. Extract each zip file. Inside each, locate the file named `PUDF_base1_Xq2019_tab.txt` (where `X` is 1–4).
 4. Create a folder (e.g. `pudf/`) and move all four `.txt` files into it.
-5. Open [`extract_bcs_tx_inpatient.py`](extract_bcs_tx_inpatient.py) and set `DATA_PATH` at the top to your folder's path:
+5. Open [`scripts/extract_bcs_tx_inpatient.py`](scripts/extract_bcs_tx_inpatient.py) and set `DATA_PATH` at the top to your folder's path:
    ```python
    DATA_PATH = "pudf"  # path to folder containing the four PUDF .txt files
    ```
 6. Run the script:
    ```bash
-   python extract_bcs_tx_inpatient.py
+   python scripts/extract_bcs_tx_inpatient.py
    ```
    This produces `bcs_tx_inpatient.csv` in the current directory, containing only records from the Bryan–College Station area facilities.
 
@@ -69,7 +69,7 @@ This project was built and run on **Google Colab**. To reproduce:
 
 1. Clone this repository
 2. Upload `main_notebook.ipynb` to Google Colab (or open it via Google Drive)
-3. Place `bcs_tx_inpatient.csv` and `ccsr_descriptions.txt` at paths accessible to the notebook (update `DATA_PATH` and `CCSR_DESC_PATH` in the first code cell to match your Drive/Colab paths)
+3. Place `bcs_tx_inpatient.csv` and `data/ccsr_descriptions.txt` at paths accessible to the notebook (update `DATA_PATH` and `CCSR_DESC_PATH` in the first code cell to match your Drive/Colab paths)
 4. Install dependencies (requires **Python 3.10+**):
    ```bash
    pip install -r requirements.txt
@@ -82,14 +82,15 @@ This project was built and run on **Google Colab**. To reproduce:
 
 ```
 676_project/
-├── main_notebook.ipynb          # full pipeline — main deliverable
-├── extract_bcs_tx_inpatient.py  # filters raw PUDF .txt files to BCS subset
-├── ccsr_descriptions.txt        # CCSR code to human-readable label reference
-├── requirements.txt             # pinned Python dependencies
-└── prev_submissions/            # past graded checkpoint submissions
-    ├── checkpoint1.ipynb
-    ├── checkpoint2.ipynb
-└── bak/                         # stale intermediate drafts of testing notebooks
+├── main_notebook.ipynb     # full pipeline — main deliverable
+├── requirements.txt        # pinned Python dependencies
+├── checkpoints/            # graded checkpoint submissions
+│   ├── checkpoint_1.ipynb
+│   └── checkpoint_2.ipynb
+├── scripts/
+│   └── extract_bcs_tx_inpatient.py  # filters raw PUDF .txt files to BCS subset
+└── data/
+    └── ccsr_descriptions.txt        # CCSR code to human-readable label reference
 ```
 
 ## Key Dependencies
@@ -97,17 +98,15 @@ This project was built and run on **Google Colab**. To reproduce:
 | Package | Version |
 |---|---|
 | Python | 3.10+ |
-| pandas | ≥ 2.0, < 3 |
-| numpy | < 2 |
+| pandas | 2.3.3 |
+| numpy | 1.26.4 |
 | scikit-learn | 1.6.1 |
 | umap-learn | 0.5.12 |
 | scipy | 1.13.1 |
 | numba | 0.60.0 |
 | icd-mappings | 0.5.0 |
-| mlxtend | ≤ 0.23.1 |
-| hdbscan | latest |
-| scikit-learn-extra | latest |
-| matplotlib | ≥ 3.8 |
-| seaborn | ≥ 0.13 |
+| mlxtend | 0.23.1 |
+| scikit-learn-extra | 0.3.0 |
+| matplotlib | 3.9.4 |
 
 The full pinned dependency list lives in [`requirements.txt`](requirements.txt).
