@@ -28,7 +28,28 @@ This single notebook contains the full pipeline: data loading and cleaning, ICD-
 
 ## Results Summary
 
-A two-stage clustering pipeline (UMAP 5D + K-Medoids, k=4, silhouette=0.75; then sub-clustering the adult group at UMAP 10D + K-Medoids k=5, silhouette=0.70) yields **eight clinically coherent subgroups** — neonatal, obstetric, healthy newborn, and five chronic-disease adult sub-groups. Comorbidity subgroups are meaningful but partial predictors of high charges (top-quartile threshold): the strongest features are comorbidity count (~35–40% of Random Forest importance) and patient age (~30–37%), with Logistic Regression achieving ROC-AUC **0.732** and Random Forest **0.705**.
+A two-stage clustering pipeline (UMAP 5D + K-Medoids, k=4, silhouette=0.75 then sub-clustering the adult group at UMAP 10D + K-Medoids k=5, silhouette=0.70) yields **eight clinically coherent subgroups**: 
+
+The first stage separates the various maternal and neonatal inpatient visits:
+
+| Cluster | Label | n | % | Defining Profile |
+|---------|-------|---|-------|------------------|
+| 0 | **Neonatal Inpatients** | 1,072 | 8.8% | Sick or at-risk newborns requiring dedicated care. |
+| 1 | **General Adult Comorbidities** | 9,049 | 74.3% | Broad chronic-disease mix: administrative/status codes, hypertension, lipid disorders, coronary disease, obesity, depression, CKD, heart failure, diabetes. Heterogeneous — sub-clustered further below. |
+| 2 | **Obstetric / Labor & Delivery** | 1,547 | 12.7% | Largely near-universal gestational-weeks and maternal delivery-outcome codes with childbirth complications, perineal trauma, and malposition as secondary codes. Homogeneous maternal admissions. |
+| 3 | **Healthy Newborn Encounters** | 511 | 4.2% | Mostly universal infectious-disease screening and liveborn, jaundice as the only notable secondary code. Routine well-newborn visits with minimal additional diagnoses. |
+
+Then, cluster 1 is re-embedded and partitioned independently, revealing five distinct chronic-disease subgroups:
+
+| Sub-cluster | Label | n | % of Cluster 1 | Defining Profile |
+|-------------|-------|---|---------------------|------------------|
+| 1 | **Mixed Psychiatric & Substance Use** | 1,511 | 16.7% | Depressive disorders, anxiety, bipolar, schizophrenia spectrum, suicidal ideation/self-harm, alcohol-related, cannabis-related. Predominantly mental-health and substance-use admissions with mild medical comorbidity. |
+| 2 | **Severe Cardiorenal-Metabolic Disease** | 2,992 | 33.1% | Hypertension with complications, chronic kidney disease, heart failure, coronary atherosclerosis, diabetes with complications, cardiac dysrhythmias, aplastic anemia. The highest-burden chronic-disease group. |
+| 3 | **General Cardiometabolic & Musculoskeletal** | 4,250 | 47.0% | Essential hypertension, lipid disorders, obesity, osteoarthritis, coronary disease, anxiet. Broad but lower-severity chronic conditions typical of general adult admissions. |
+| 4 | **Pure Depressive Disorder** | 167 | 1.8% | Depressive disorders in 99.4% of patients with virtually no other comorbiditie. |
+| 5 | **Schizophrenia Spectrum (Isolated)** | 129 | 1.4% | Schizophrenia spectrum in 100% of patients with negligible secondary diagnoses. |
+
+Comorbidity subgroups are meaningful but partial predictors of high charges (top-quartile threshold): the strongest features are comorbidity count (~35–40% of Random Forest importance) and patient age (~30–37%), with Logistic Regression achieving ROC-AUC **0.732** and Random Forest **0.705**.
 
 ## Data
 
