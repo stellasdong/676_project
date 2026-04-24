@@ -1,84 +1,100 @@
 UMAP Sub-cluster Profiles — Non-Pregnancy Cluster 1
 Configuration: UMAP 10d, k=5, silhouette=0.6961
 Parent partition: UMAP 5D k=4 (Cluster 1, n=9,049 patients)
-=================================================================
+Enrichment = sub-cluster prevalence / adult-population prevalence
+================================================================================
 
 Sub-cluster 0  (n=1,511, 16.7%)
-  CCSR       Description                                        Prevalence
-  ----------------------------------------------------------------------
-  MBD002     Depressive disorders                                    46.6%
-  MBD005     Anxiety and fear-related disorders                      26.8%
-  MBD003     Bipolar and related disorders                           25.3%
-  MBD001     Schizophrenia spectrum and other psychotic disorders      22.4%
-  FAC021     Personal/family history of disease                      20.4%
-  MBD012     Suicidal ideation/attempt/intentional self-harm         18.7%
-  CIR007     Essential hypertension                                  18.5%
-  NVS016     Sleep wake disorders                                    16.1%
-  MBD017     Alcohol-related disorders                               10.3%
-  DIG004     Esophageal disorders                                     9.3%
-  MBD019     Cannabis-related disorders                               9.0%
-  MBD007     Trauma- and stressor-related disorders                   8.1%
+  CCSR       Description                                       SC%   Adult%   Enrich
+  ----------------------------------------------------------------------------------
+  MBD008     Disruptive, impulse-control and conduct disorders    5.0%     0.9%    5.84x
+  MBD012     Suicidal ideation/attempt/intentional self-harm   18.7%     3.2%    5.82x
+  MBD025     Other specified substance-related disorders      8.1%     1.6%    5.00x
+  MBD019     Cannabis-related disorders                       9.0%     2.1%    4.26x
+  MBD021     Stimulant-related disorders                      6.1%     1.4%    4.21x
+  MBD003     Bipolar and related disorders                   25.3%     6.4%    3.98x
+  MBD007     Trauma- and stressor-related disorders           8.1%     2.1%    3.88x
+  MBD001     Schizophrenia spectrum and other psychotic disorders   22.4%     5.9%    3.79x
+  SYM008     Symptoms of mental and substance use conditions    5.4%     1.5%    3.61x
+  MBD014     Neurodevelopmental disorders                     5.4%     1.7%    3.15x
+  MBD017     Alcohol-related disorders                       10.3%     4.6%    2.22x
+  MBD002     Depressive disorders                            46.6%    22.1%    2.11x
+  MBD005     Anxiety and fear-related disorders              26.8%    18.3%    1.46x
+  NVS016     Sleep wake disorders                            16.1%    16.3%    0.98x
+  NVS019     Nervous system pain and pain syndromes           5.4%     7.6%    0.71x
 
 Sub-cluster 1  (n=2,992, 33.1%)
-  CCSR       Description                                        Prevalence
-  ----------------------------------------------------------------------
-  CIR008     Hypertension with complications and secondary hypertension      89.9%
-  FAC025     Other specified status                                  82.9%
-  GEN003     Chronic kidney disease                                  65.0%
-  FAC021     Personal/family history of disease                      60.7%
-  END010     Disorders of lipid metabolism                           58.6%
-  CIR019     Heart failure                                           58.4%
-  CIR011     Coronary atherosclerosis and other heart disease        48.2%
-  END003     Diabetes mellitus with complication                     41.9%
-  CIR017     Cardiac dysrhythmias                                    38.9%
-  BLD003     Aplastic anemia                                         32.8%
-  DIG004     Esophageal disorders                                    32.5%
-  END011     Fluid and electrolyte disorders                         31.8%
+  CCSR       Description                                       SC%   Adult%   Enrich
+  ----------------------------------------------------------------------------------
+  CIR019     Heart failure                                   58.4%    19.7%    2.97x
+  GEN003     Chronic kidney disease                          65.0%    21.9%    2.96x
+  CIR008     Hypertension with complications and secondary hypertension   89.9%    30.6%    2.94x
+  CIR005     Myocarditis and cardiomyopathy                  12.1%     4.5%    2.69x
+  CIR032     Other specified and unspecified circulatory disease    7.3%     3.3%    2.21x
+  END003     Diabetes mellitus with complication             41.9%    19.2%    2.19x
+  GEN006     Other specified and unspecified diseases of kidney and ureters    6.4%     3.1%    2.04x
+  MUS033     Gout                                             7.7%     3.8%    2.01x
+  CIR003     Nonrheumatic and unspecified valve disorders    10.2%     5.1%    2.01x
+  GEN002     Acute and unspecified renal failure             27.5%    13.7%    2.00x
+  CIR016     Conduction disorders                            14.0%     7.1%    1.97x
+  CIR017     Cardiac dysrhythmias                            38.9%    20.0%    1.95x
+  RSP012     Respiratory failure; insufficiency; arrest      25.2%    13.0%    1.94x
+  CIR011     Coronary atherosclerosis and other heart disease   48.2%    25.5%    1.89x
+  NVS018     Myopathies                                       6.2%     3.3%    1.89x
 
 Sub-cluster 2  (n=4,250, 47.0%)
-  CCSR       Description                                        Prevalence
-  ----------------------------------------------------------------------
-  FAC025     Other specified status                                  72.2%
-  CIR007     Essential hypertension                                  65.2%
-  FAC021     Personal/family history of disease                      52.7%
-  END010     Disorders of lipid metabolism                           42.0%
-  END009     Obesity                                                 26.8%
-  DIG004     Esophageal disorders                                    25.8%
-  MUS006     Osteoarthritis                                          23.7%
-  END011     Fluid and electrolyte disorders                         21.2%
-  SYM010     Nervous system signs and symptoms                       20.8%
-  CIR011     Coronary atherosclerosis and other heart disease        20.1%
-  FAC009     Implant, device or graft related encounter              18.7%
-  MBD005     Anxiety and fear-related disorders                      17.5%
+  CCSR       Description                                       SC%   Adult%   Enrich
+  ----------------------------------------------------------------------------------
+  CIR007     Essential hypertension                          65.2%    33.9%    1.93x
+  SYM005     Dysphagia                                        5.6%     4.1%    1.38x
+  MUS006     Osteoarthritis                                  23.7%    17.3%    1.38x
+  END002     Diabetes mellitus without complication          13.0%     9.5%    1.37x
+  MBD024     Tobacco-related disorders                       15.7%    12.2%    1.29x
+  MUS011     Spondylopathies/spondyloarthropathy (including infective)    8.4%     6.6%    1.28x
+  INF003     Bacterial infections                            10.4%     8.2%    1.27x
+  DIG025     Other specified and unspecified gastrointestinal disorders    8.9%     7.1%    1.25x
+  SYM010     Nervous system signs and symptoms               20.8%    17.0%    1.23x
+  BLD004     Acute posthemorrhagic anemia                     9.5%     7.8%    1.22x
+  SYM017     Abnormal findings without diagnosis              7.5%     6.2%    1.21x
+  SYM007     Malaise and fatigue                             14.7%    12.2%    1.20x
+  MUS013     Osteoporosis                                     5.0%     4.2%    1.19x
+  FAC009     Implant, device or graft related encounter      18.7%    15.7%    1.19x
+  FAC025     Other specified status                          72.2%    61.8%    1.17x
 
 Sub-cluster 3  (n=167, 1.8%)
-  CCSR       Description                                        Prevalence
-  ----------------------------------------------------------------------
-  MBD002     Depressive disorders                                    99.4%
-  MBD006     Obsessive-compulsive and related disorders               1.8%
-  MBD018     Opioid-related disorders                                 1.2%
-  DIG006     Gastrointestinal and biliary perforation                 0.6%
-  DIG012     Intestinal obstruction and ileus                         0.6%
-  MBD010     Feeding and eating disorders                             0.6%
-  MUS033     Gout                                                     0.6%
-  PRG002     Gestational weeks                                        0.6%
-  BLD001     Nutritional anemia                                       0.0%
-  BLD002     Hemolytic anemia                                         0.0%
-  BLD003     Aplastic anemia                                          0.0%
-  BLD004     Acute posthemorrhagic anemia                             0.0%
+  CCSR       Description                                       SC%   Adult%   Enrich
+  ----------------------------------------------------------------------------------
+  MBD002     Depressive disorders                            99.4%    22.1%    4.51x
+  GEN011     Vesicoureteral reflux                            0.0%     0.0%    0.00x
+  GEN013     Inflammatory conditions of male genital organs    0.0%     0.2%    0.00x
+  GEN014     Erectile dysfunction                             0.0%     0.8%    0.00x
+  GEN016     Other specified male genital disorders           0.0%     0.4%    0.00x
+  GEN017     Nonmalignant breast conditions                   0.0%     0.2%    0.00x
+  GEN018     Inflammatory diseases of female pelvic organs    0.0%     0.3%    0.00x
+  GEN019     Endometriosis                                    0.0%     0.1%    0.00x
+  GEN020     Prolapse of female genital organs                0.0%     0.1%    0.00x
+  GEN021     Menstrual disorders                              0.0%     0.3%    0.00x
+  GEN022     Benign ovarian cyst                              0.0%     0.1%    0.00x
+  GEN023     Menopausal disorders                             0.0%     0.2%    0.00x
+  GEN024     Female infertility                               0.0%     0.0%    0.00x
+  GEN025     Other specified female genital disorders         0.0%     0.3%    0.00x
+  SYM017     Abnormal findings without diagnosis              0.0%     6.2%    0.00x
 
 Sub-cluster 4  (n=129, 1.4%)
-  CCSR       Description                                        Prevalence
-  ----------------------------------------------------------------------
-  MBD001     Schizophrenia spectrum and other psychotic disorders     100.0%
-  MBD022     Hallucinogen-related disorders                           1.6%
-  SYM015     General sensation/perception signs and symptoms          1.6%
-  END011     Fluid and electrolyte disorders                          0.8%
-  INF007     Hepatitis                                                0.8%
-  MBD004     Other specified and unspecified mood disorders           0.8%
-  MBD010     Feeding and eating disorders                             0.8%
-  NVS010     Headache; including migraine                             0.8%
-  SKN005     Contact dermatitis                                       0.8%
-  BLD001     Nutritional anemia                                       0.0%
-  BLD002     Hemolytic anemia                                         0.0%
-  BLD003     Aplastic anemia                                          0.0%
+  CCSR       Description                                       SC%   Adult%   Enrich
+  ----------------------------------------------------------------------------------
+  MBD001     Schizophrenia spectrum and other psychotic disorders  100.0%     5.9%   16.88x
+  SYM017     Abnormal findings without diagnosis              0.0%     6.2%    0.00x
+  GEN025     Other specified female genital disorders         0.0%     0.3%    0.00x
+  GEN013     Inflammatory conditions of male genital organs    0.0%     0.2%    0.00x
+  GEN014     Erectile dysfunction                             0.0%     0.8%    0.00x
+  GEN016     Other specified male genital disorders           0.0%     0.4%    0.00x
+  GEN017     Nonmalignant breast conditions                   0.0%     0.2%    0.00x
+  GEN018     Inflammatory diseases of female pelvic organs    0.0%     0.3%    0.00x
+  GEN019     Endometriosis                                    0.0%     0.1%    0.00x
+  GEN020     Prolapse of female genital organs                0.0%     0.1%    0.00x
+  GEN021     Menstrual disorders                              0.0%     0.3%    0.00x
+  GEN022     Benign ovarian cyst                              0.0%     0.1%    0.00x
+  GEN023     Menopausal disorders                             0.0%     0.2%    0.00x
+  GEN024     Female infertility                               0.0%     0.0%    0.00x
+  GEN026     Postprocedural or postoperative genitourinary system complication    0.0%     0.1%    0.00x
